@@ -1,0 +1,107 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+.logo span {
+  font-size: 24px;
+  padding-left: 5px;
+}
+.login{
+  float:right !important;
+}
+/*轮播图的样式*/
+/*轮播图*/
+.carousel {
+  width: 400px;
+  float: left;
+}
+.carousel img {
+  width: 400px;
+  height: 260px;
+}
+
+/*image_block/news_block组件*/
+.imageblock {
+  float: left;
+}
+.custom-card {
+  padding: 5px;
+}
+.custom-card p {
+  color: #999;
+}
+.topNewsList {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.topNewsList a {
+  line-height: 22px !important;
+  color: #666 !important;
+}
+
+.ant-card{
+  margin-top: 5px !important;
+}
+.ant-card-head-title{
+  text-align: left !important;
+}
+.ant-card-body{
+  text-align: left !important;
+  padding: 15px !important;
+}
+.ant-tabs-bar {
+  margin-bottom: 0 !important;
+}
+
+/*新闻列表*/
+.tabs_news {
+  padding-left: 10px;
+  width: 400px;
+  float: left;
+}
+.tabs_news li {
+  height: 27px;
+  line-height: 27px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 417px;
+  float: left;
+  text-overflow: ellipsis;
+}
+.leftContainer {
+  width: 400px;
+  float: left;
+}
+
+/*news_products组件*/
+.pro_bg{
+  background: #eeeeee;
+  margin-top: 10px;
+}
+.pro{
+  padding:5px;
+  overflow: hidden;
+}
+.pro a{
+  float: left;
+  line-height: 30px;
+  margin-right:5px;
+}
+
+/*news_container/news_detail组件*/
+.container {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+.leftContainer {
+  width: 400px;
+  float: left;
+}
